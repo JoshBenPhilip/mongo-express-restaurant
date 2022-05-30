@@ -21,7 +21,7 @@ mongo.connect(url, options, (err, mongoClient) => {
     console.error(err);
     return;
   }
-  console.log("we are connected!");
+  console.log("we are connected, welcome stranger");
 
   app.listen(3000, () => console.log("app is listening on post 3000"));
   const db = mongoClient.db("restaurant");
