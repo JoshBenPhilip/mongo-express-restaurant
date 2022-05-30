@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const url = process.env.Mongo_URL
+const url = process.env.MONGO_URL
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
