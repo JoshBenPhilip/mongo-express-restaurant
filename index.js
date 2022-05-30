@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/", (req, res) =>
+app.get("/hey", (req, res) =>
   res.status(200).send(`Hey class! ${menudb.find.toArray()}`)
 );
 //post
